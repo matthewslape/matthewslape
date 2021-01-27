@@ -2,7 +2,7 @@
 console.log("OK");
 
 // Store Background Classes
-const backgrounds = ["bg0", "bg1", "bg2"];
+const backgrounds = ["bg0", "bg1", "bg2", "bg3", "bg4"];
 
 // Get Random Number
 var numRand;
