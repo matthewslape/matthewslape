@@ -11,3 +11,16 @@ h1 {
 p {
   color: white;
 }
+
+/*classes for random background color*/
+.bg0 {
+  background: black;
+}
+
+.bg1 {
+  background: #12232e;
+}
+
+.bg2 {
+  background: DarkSlateGrey;
+}
