@@ -139,3 +139,26 @@ small,
     #0f2027
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+form {
+  height: 400px;
+  width: 600px;
+  background: slategrey;
+  border-radius: 10px;
+}
+
+#contactForm {
+  display: inline-block;
+  justify-content: center;
+}
+
+button {
+  background: white;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
