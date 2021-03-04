@@ -2,6 +2,34 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
 @import url("https://fonts.googleapis.com/css2?family=Graduate&family=Roboto&display=swap");
 
+/*Styling for navigation bar*/
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 30px;
+
+  line-height: 66px;
+
+  background-color: none;
+}
+
+.header__logo {
+  float: left;
+}
+
+nav {
+  float: right;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Graduate", cursive;
+  font-weight: 400;
+}
+
 img {
   height: 50%;
   width: 50%;
