@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>Matthew Slape Portfolio</title>
+    <title>Matthew Slape Portfolio</title> 
+    <link rel="stylesheet" href="/CSS/styles.css"/>
+
+    <!-- Light Gallery -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css">
+    
 
     <!--Favicons-->
 
@@ -39,7 +44,7 @@
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
-    <link rel="stylesheet" href="/CSS/styles.css" />
+    
   </head>
 
   
@@ -48,7 +53,7 @@
     <img id="introPic" src="/img/myDesk_Portfolio.jpg" alt="Desk" />
     <header class="header">
         <a class="header__logo">Matthew Slape Design</a>
-      <nav>
+        <nav>
           <a href="https://www.linkedin.com/in/matthew-slape-0aab79195"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M4.64718 7.85432C6.15335 7.85432 7.37434 6.63333 7.37434 5.12716C7.37434 
             3.62099 6.15335 2.39999 4.64718 2.39999C3.14101 2.39999 1.92001 3.62099 1.92001 5.12716C1.92001 6.63333 3.14101 7.85432 4.64718 
@@ -110,7 +115,43 @@
 
     </header>
 
-    
+    <div id="gallery">
+
+        <a href="http://via.placeholder.com/900?text=thumbnail">
+          <img src="https://i.imgur.com/yn5AQ1bm.jpg" alt="Thumbnail" />
+        </a>
+
+        <a href="http://via.placeholder.com/900?text=thumbnail">
+          <img src="https://i.imgur.com/yn5AQ1bm.jpg" alt="Thumbnail" data-lightgaller/>
+        </a>
+
+        <a href="http://via.placeholder.com/900?text=thumbnail">
+          <img src="https://i.imgur.com/yn5AQ1bm.jpg" alt="Thumbnail" />
+        </a>
+
+        <a href="http://via.placeholder.com/900?text=thumbnail">
+          <img src="https://i.imgur.com/yn5AQ1bm.jpg" alt="Thumbnail" />
+        </a>
+
+        <a href="http://via.placeholder.com/900?text=thumbnail">
+          <img src="https://i.imgur.com/yn5AQ1bm.jpg" alt="Thumbnail" />
+        </a>
+
+        <a href="http://via.placeholder.com/900?text=thumbnail">
+          <img src="https://i.imgur.com/yn5AQ1bm.jpg" alt="Thumbnail" />
+        </a>
+
+        <a href="http://via.placeholder.com/900?text=thumbnail">
+          <img src="https://i.imgur.com/yn5AQ1bm.jpg" alt="Thumbnail" />
+        </a>
+
+
+
+
+
+    </div>
+
+  
 
     
     <div id="aboutMe">
@@ -124,42 +165,51 @@
       this Earth, and I am known for trying to replicate that in my designs. I
       put time and authenticity into my work, and feel that its main purpose is
       to open doors and connect people.
-    </p>
-  </div>
+      </p>
     
-    <h3>Contact Form</h3>
-    <div id="contactForm">
-      <form
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      data-netlify="true"
-      data-netlify-recaptcha="true"
-      action="/thanks.html"
-       >
-      <p>
-        <label>Name: <input type="text" name="name" required /></label>
-      </p>
+  
+    </div>
+    
+      <h3>Contact Form</h3>
 
-      <p>
-        <label>Email: <input type="email" name="email" required /></label>
-      </p>
+      <div id="contactForm">
+        <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        data-netlify="true"
+        data-netlify-recaptcha="true"
+        action="/thanks.html"
+         >
+          <p>
+            <label>Name: <input type="text" name="name" required /></label>
+          </p>
 
-      <p>
-        <label>Message: <textarea name="message" required></textarea></label>
-      </p>
+          <p>
+          <label>Email: <input type="email" name="email" required /></label>
+          </p>
 
-      <p>
-        <div data-netlify-recaptcha="true"></div>
-      </p>
+          <p>
+            <label>Message: <textarea name="message" required></textarea></label>
+          </p>
 
-      <p>
-        <button type="submit">Send</button>
-      </p>
+          <p>
+            <div data-netlify-recaptcha="true"></div>
+          </p>
 
-    </form>
-  </div>
+          <p>
+            <button type="submit">Send</button>
+          </p>
 
-    <script src="/JS/scripts.js"></script>
+        </form>
+      </div>
+      
+      <!--Scirpt-->
+      <script src="/JS/scripts.js"></script>
+
+      <script type="text/javascript">
+        lightGallery(document.getElementById('gallery'));
+        thumbnail: true;
+      </script>
   </body>
 </html>

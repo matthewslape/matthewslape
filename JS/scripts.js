@@ -1,4 +1,3 @@
-/**Check Check */
 console.log("OK");
 
 // Store Background Classes
