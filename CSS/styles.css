@@ -15,19 +15,23 @@ div.lg-complete {
 }
 
 /*Gallery Styling*/
-#gallery {
+.gallery {
   margin: 10px 50px;
 }
 
-#gallery img {
+.gallery img {
   padding: 15px;
   width: 300px;
   transition: 1s;
 }
 
-#gallery img:hover {
+.gallery img:hover {
   filter: grayscale(100%);
   position: relative;
+}
+
+#comingSoon {
+  color: black;
 }
 /*Styling for navigation bar*/
 .header {
