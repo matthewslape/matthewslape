@@ -15,6 +15,10 @@ div.lg-complete {
 }
 
 /*Gallery Styling*/
+#myWork{
+  background: rgba(49, 49, 49, 1);
+}
+
 .gallery {
   margin: 10px 50px;
 }
@@ -31,7 +35,7 @@ div.lg-complete {
 }
 
 #comingSoon {
-  color: black;
+  color: #C4C4C4;
 }
 /*Styling for navigation bar*/
 .header {
