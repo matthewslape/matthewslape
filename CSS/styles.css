@@ -16,12 +16,13 @@
 .gallery img {
   padding: 15px;
   width: 400px;
-  transition: 1s;
+  transition: .7s;
 }
 
 .gallery img:hover {
   filter: grayscale(100%);
   position: relative;
+  width: 410px;
 }
 
 #comingSoon {
