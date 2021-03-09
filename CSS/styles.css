@@ -3,16 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Graduate&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;600;700&display=swap");
 
-/* LightGallery Position Correction */
-div.lg-item,
-div.lg-loaded,
-div.lg-current,
-div.lg-complete {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
 
 /*Gallery Styling*/
 #myWork{
@@ -25,7 +15,7 @@ div.lg-complete {
 
 .gallery img {
   padding: 15px;
-  width: 500px;
+  width: 400px;
   transition: 1s;
 }
 
@@ -70,6 +60,35 @@ a {
   background-position: center;
   width: 100vw;
 }
+
+
+/*Logo at the top of webstie*/
+#msdLogo {
+
+  position: absolute;
+  width: 30%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0));
+  transition: 1s;
+
+}
+
+#msdLogo:hover {
+
+  width: 32%;
+  background-color: #000000;
+
+}
+
+#topBox {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
 
 html {
   font-size: 100%;

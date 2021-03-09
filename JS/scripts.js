@@ -12,3 +12,15 @@ let pageBackground = document.querySelector("body");
 
 // Set class name from stored values
 pageBackground.className = backgrounds[numRand];
+
+
+// Just in case you need to scroll
+let scrollHeight = 0;
+window.addEventListener('scroll', function(e) {
+	scrollHeight = window.scrollY
+})
+
+let cursorOuterOriginalState = {
+	width: cursorOuter.getBoundingClientRect().width,
+	height: cursorOuter.getBoundingClientRect().height,
+};
