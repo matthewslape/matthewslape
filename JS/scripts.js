@@ -1,7 +1,7 @@
 console.log("Test");
 
 //call lightgallery
-const portfolio = document.getElementsByClassName("portfolio");
+const portfolio = document.getElementsByClassName('portfolio');
 
 lightGallery(portfolio);
 
