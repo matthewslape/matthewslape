@@ -7,20 +7,20 @@
 /*Gallery Styling*/
 #myWork{
   background: rgba(49, 49, 49, 1);
-  width: 100vw;
+  width: 100%;
 }
 
-.gallery {
+.portfolio {
   margin: 10px 50px;
 }
 
-.gallery img {
+.portfolio img {
   padding: 15px;
   width: 300px;
   transition: .7s;
 }
 
-.gallery img:hover {
+.portfolio img:hover {
   filter: grayscale(100%);
   position: relative;
   width: 310px;
@@ -234,7 +234,7 @@ small,
 }
 
 form {
-  min-width: 60vw;
+  min-width: 0vw;
   background: black;
   border-radius: 5px;
 }

@@ -14,13 +14,11 @@ let pageBackground = document.querySelector("body");
 pageBackground.className = backgrounds[numRand];
 
 
-// Just in case you need to scroll
-let scrollHeight = 0;
-window.addEventListener('scroll', function(e) {
-	scrollHeight = window.scrollY
-})
+//call lightgallery
+const portfolio = document.getElementsByClassName("portfolio");
 
-let cursorOuterOriginalState = {
-	width: cursorOuter.getBoundingClientRect().width,
-	height: cursorOuter.getBoundingClientRect().height,
-};
+lightGallery(portfolio,  {
+
+	mode: "lg-zoom-in-big"
+	
+});
