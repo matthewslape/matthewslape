@@ -1,4 +1,4 @@
-console.log("OK");
+console.log("Test");
 
 //call lightgallery
 const portfolio = document.getElementsByClassName("portfolio");
