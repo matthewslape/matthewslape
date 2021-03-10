@@ -15,14 +15,14 @@
 
 .gallery img {
   padding: 15px;
-  width: 400px;
+  width: 300px;
   transition: .7s;
 }
 
 .gallery img:hover {
   filter: grayscale(100%);
   position: relative;
-  width: 410px;
+  width: 310px;
 }
 
 #comingSoon {
@@ -107,8 +107,8 @@ body {
 }
 
 #aboutMe {
-  height: 400px;
-  width: 600px;
+  width: 70%;
+  margin: 10px;
 }
 /*Type-scale.com was used to help genarate this code*/
 p {
@@ -233,10 +233,9 @@ small,
 }
 
 form {
-  height: 400px;
-  width: 600px;
-  background: slategrey;
-  border-radius: 10px;
+  min-width: 60vw;
+  background: black;
+  border-radius: 5px;
 }
 
 #contactForm {
@@ -246,7 +245,7 @@ form {
 
 button {
   background: white;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 5px;
 }
 
