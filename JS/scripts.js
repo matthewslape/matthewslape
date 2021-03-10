@@ -3,11 +3,7 @@ console.log("OK");
 //call lightgallery
 const portfolio = document.getElementsByClassName("portfolio");
 
-lightGallery(portfolio,  {
-
-	mode: "lg-zoom-in-big"
-	
-});
+lightGallery(portfolio);
 
 // Store Background Classes
 const backgrounds = ["bg0", "bg1", "bg2", "bg3", "bg4"];
