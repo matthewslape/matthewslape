@@ -1,10 +1,5 @@
 console.log("Test");
 
-//call lightgallery
-const handLettering = document.querySelector("#handLettering");
-
-lightGallery(handLettering);
-
 // Store Background Classes
 const backgrounds = ["bg0", "bg1", "bg2", "bg3", "bg4"];
 

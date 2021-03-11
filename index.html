@@ -32,7 +32,7 @@
     </div>
 
     <header class="header">
-        <a class="header__logo">Matthew Slape Design</a>
+        <a class="header__title">Matthew Slape Design</a>
         <nav>
           <a href="https://www.linkedin.com/in/matthew-slape-0aab79195"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M4.64718 7.85432C6.15335 7.85432 7.37434 6.63333 7.37434 5.12716C7.37434 
@@ -250,16 +250,17 @@
         data-netlify-recaptcha="true"
         action="/thanks.html"
          >
-          <p>
-            <label>Name: <input type="text" name="name" required /></label>
-          </p>
+         <a id="row1Contact">
+            <p>
+             <label>Name<input class="typeBox" type="text" name="name" required /></label>
+            </p>
 
+            <p>
+            <label>Email<input class="typeBox" type="email" name="email" required /></label>
+            </p>
+          </a>
           <p>
-          <label>Email: <input type="email" name="email" required /></label>
-          </p>
-
-          <p>
-            <label>Message: <textarea name="message" required></textarea></label>
+            <label>Message<textarea id="messageBox"class="typeBox" name="message" required></textarea></label>
           </p>
 
           <p>
