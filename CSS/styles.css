@@ -26,6 +26,17 @@
   width: 310px;
 }
 
+/*to resest the offset on gallery*/
+div.lg-item,
+div.lg-loaded,
+div.lg-current,
+div.lg-complete {
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}
+
 #comingSoon {
   color: #C4C4C4;
 }

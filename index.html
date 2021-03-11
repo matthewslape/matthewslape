@@ -97,12 +97,13 @@
 
   <div id="myWork">
     <h2>Hand Lettering</h2>
-    <div class="portfolio">
 
+    <div class="portfolio" id="handLettering">
+     
       <a href="img/portfoliosite_img1.png">
-       <img src="img/portfoliosite_img_thumbnail1.png" alt="Thumbnail" />
+        <img src="img/portfoliosite_img_thumbnail1.png" alt="Thumbnail" />
       </a>
-
+     
       <a href="img/portfoliosite_img3.png">
         <img src="img/portfoliosite_img_thumbnail3.png" alt="Thumbnail" />
        </a>
@@ -122,7 +123,7 @@
     </div>
 
     <h2>Illustration</h2>
-    <div class="portfolio">
+    <div class="portfolio" id="illustration">
 
       <a href="img/portfoliosite_img18.png">
        <img src="img/portfoliosite_img_thumbnail18.png" alt="Thumbnail" />
@@ -155,7 +156,7 @@
     </div>
 
     <h2>Tattoo Design</h2>
-    <div class="portfolio">
+    <div class="portfolio" id="tattooDesign">
 
       <a href="img/portfoliosite_img17.png">
        <img src="img/portfoliosite_img_thumbnail17.png" alt="Thumbnail" />
@@ -188,7 +189,7 @@
     </div>
 
     <h2>Branding</h2>
-    <div class="portfolio">
+    <div class="portfolio" id="branding">
 
       <a href="img/portfoliosite_img5.png">
        <img src="img/portfoliosite_img_thumbnail5.png" alt="Thumbnail" />
@@ -275,5 +276,28 @@
       <!--Scirpts-->
       <script src="js/scripts.js"></script>
       <script src="js/lightgallery.min.js"></script>
+
+      <script type="text/javascript">
+      lightGallery(document.querySelector('#handLettering'), {
+        
+        download: false
+      });
+
+      lightGallery(document.querySelector('#illustration'), {
+        
+        download: false
+      });
+
+      lightGallery(document.querySelector('#tattooDesign'), {
+        
+        download: false
+      });
+
+      lightGallery(document.querySelector('#branding'), {
+    
+        download: false
+      });
+
+      </script>
   </body>
 </html>
