@@ -1,8 +1,13 @@
 ### Read Me Please! 👋
+<!--
+Thank you favicongenerator.net for the favicon set up!
+Thank you 147 colors for the CSS refrence!
+Thank you uiGradients.com for help writing CSS gradient sets
+Thank you LightGallery js for the gallery plugin!
+Thank you netlify for Contact form and reCAPTCHA!
+>
 
 <!--
-**matthewslape/matthewslape** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
@@ -14,3 +19,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
