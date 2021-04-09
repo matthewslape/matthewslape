@@ -43,28 +43,43 @@ left: 0;
 /*Styling for navigation bar*/
 .header {
   position: absolute;
+
   left: 0;
   right: 0;
-  padding: 30px;
+  padding: 2vh;
   background-color: none;
 }
 
-.header__title {
+.headerTitle {
   float: left;
   font-family: IBM Plex Sans;
   font-style: normal;
-  font-size: larger;
+  font-size: 30px;
+  letter-spacing: 8px;
   font-weight: 600;
-  line-height: 1.3;
   color: white;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .headerTitle {
+    font-size: 15px;
+    letter-spacing: 3px;
+
+  }
+
+  nav {
+    display: grid;
+  }
+
 }
 
 nav {
   float: right;
 }
 
-a {
+nav a {
   padding: 5px;
 }
 
