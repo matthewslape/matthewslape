@@ -89,7 +89,7 @@ left: 0;
   }
 
   .headerTitle {
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 4px;
 
   }
@@ -101,7 +101,9 @@ left: 0;
 }
 
 /*picture at the top of my website*/
+
 #introPic {
+  object-fit: cover;
   background-size: cover;
   background-position: center;
   width: 100vw;
