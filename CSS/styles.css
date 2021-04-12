@@ -40,47 +40,64 @@ left: 0;
 #comingSoon {
   color: #C4C4C4;
 }
-/*Styling for navigation bar*/
-.header {
-  position: absolute;
 
-  left: 0;
-  right: 0;
-  padding: 2vh;
-  background-color: none;
+/*Styling for navigation bar*/
+.subPage:hover {
+
+  background-color: black;
+
+}
+
+.header {
+  width: 98vw;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .headerTitle {
-  float: left;
-  font-family: IBM Plex Sans;
+  display: flex;
+  place-content: space-between;
+  
+
+  /*font styling*/
   font-style: normal;
   font-size: 30px;
   letter-spacing: 8px;
   font-weight: 600;
   color: white;
   text-transform: uppercase;
+  font-family: IBM Plex Sans;
 }
 
-@media only screen and (max-width: 800px) {
+#pages {
+
+  display:flex;
+
+}
+
+#pages h5 {
+  padding: 10px;
+}
+
+@media screen and (max-width: 935px) {
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
 
   .headerTitle {
-    font-size: 15px;
-    letter-spacing: 3px;
+    font-size: 20px;
+    letter-spacing: 4px;
 
   }
 
-  nav {
-    display: grid;
+  #pages {
+    display: none;
   }
 
-}
-
-nav {
-  float: right;
-}
-
-nav a {
-  padding: 5px;
 }
 
 /*picture at the top of my website*/
@@ -97,7 +114,7 @@ nav a {
   position: absolute;
   width: 20%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0));
-  transition: 1s;
+  transition: .5s;
 
 }
 
@@ -169,8 +186,7 @@ p {
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4{
   font-family: IBM Plex Sans;
   font-style: normal;
   font-weight: 700;
@@ -196,7 +212,14 @@ h4 {
 }
 
 h5 {
-  font-size: 1.333rem;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: .999rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
 }
 
 small,
@@ -204,83 +227,11 @@ small,
   font-size: 0.75rem;
 }
 
-/*classes for random background color
-*uiGradients.com was used to help write these gradient codes */
-.bg0 {
-  background: #bdc3c7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.bg1 {
-  background: #f0f2f0; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #000c40,
-    #f0f2f0
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #000c40,
-    #f0f2f0
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.bg2 {
-  background: #1e3c72; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2a5298,
-    #1e3c72
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2a5298,
-    #1e3c72
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.bg3 {
-  background: #283048; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #859398,
-    #283048
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #859398,
-    #283048
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.bg4 {
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body{
+  background-color: #ffffff;
 }
 
 /*Styling for Contact Form*/
-
-
 #contactForm {
   display: inline-block;
   justify-content: center;
@@ -296,7 +247,6 @@ small,
   
 }
 
-
 label {
   display: flex;
   flex-direction: column;
@@ -304,11 +254,16 @@ label {
 }
 
 button {
+  font-family: IBM Plex Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   background: black;
   color: white;
   font-size: 20px;
-  border-radius: 5px;
-  transition: .3s;
+  border-radius: 4px;
+  transition: .2s;
+
 }
 
 button:hover {
