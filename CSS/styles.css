@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Inter:400,800");
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
 @import url("https://fonts.googleapis.com/css2?family=Graduate&family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
 /*Gallery Styling*/
@@ -37,9 +37,6 @@ bottom: 0;
 left: 0;
 }
 
-#comingSoon {
-  color: #C4C4C4;
-}
 
 /*Styling for navigation bar*/
 .subPage:hover {
@@ -77,15 +74,19 @@ left: 0;
 
 }
 
-#pages h5 {
+.subPage {
+  font-family: IBM Plex Sans;
+  font-weight: 400;
+  text-transform: uppercase;
   padding: 10px;
+  letter-spacing: 0.2em;
 }
 
 @media screen and (max-width: 935px) {
 
   .header {
     display: flex;
-    align-items: center;
+    align-items: top;
   }
 
   .headerTitle {
@@ -136,8 +137,6 @@ left: 0;
 }
 
 
-
-
 html {
   font-size: 100%;
 }
@@ -151,7 +150,85 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
+/*Directory Block*/
+#bigMatthew {
+  display: inline-block;
+  align-self: center;
+  position: absolute;
+  font-size: 30vw;
+  line-height: 30vw;
+  z-index: 0;
+  
+}
+
+#directoryBlock {
+  background: rgba(222, 222, 222, 1);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+  
+}
+
+#subDirect1 {
+  padding-left: 5vw;
+  padding-top: 5vw;
+  align-self: flex-start;
+  z-index: 1;
+  text-align: left;
+}
+
+.subDirect1Items {
+  font-family: IBM Plex Sans;
+  font-weight: bold;
+  font-size: 5vw;
+  color:#000000;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 3vw;
+  margin-top: 0;
+  margin-bottom: 5vw;
+  transition: .3s;
+}
+
+.subDirect1Items:hover {
+  letter-spacing: 0.2em;
+  font-weight:  400;
+}
+
+#subDirect2 {
+  padding-right: 5vw;
+  padding-bottom: 5vw;
+  align-self: flex-end;
+  z-index: 1;
+  text-align: right;
+}
+
+.subDirect2Items {
+  font-family: IBM Plex Sans;
+  font-weight: 400;
+  font-size: 5vw;
+  color:#000000;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 3vw;
+  margin-top: 5vw;
+  margin-bottom: 0;
+  transition: .3s;
+}
+
+.subDirect2Items:hover {
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+
+
+
 
 #aboutMe {
   width: 60%;
